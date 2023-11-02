@@ -14,9 +14,38 @@ function writePassword() {
 
 }
 function generatePassword() {
- return specialCharacters;
+  var length = prompt("How long do you want your password?");
+  if (length<8 || length>128) {
+    alert("Password length not in bounds");
+    return;
+  }
+  var wantsUppercase = confirm("Do you want uppercase characters");
+  var wantsLowercase = confirm("Do you want lowercase characters?");
+  var wantsNumbers = confirm("Do you want numbers?");
+  var wantsSpecialChar = confirm("Do you want special characters?");
+  var options = [];
+  if (wantsUppercase === true) {
+    options=options.concat(uppercase);
+  }
+  if (wantsLowercase === true) {
+    options=options.concat(lowercase);
+  }
+  if (wantsNumbers === true) {
+    options=options.concat(numbers);
+  }
+  if (wantsSpecialChar === true) {
+    options=options.concat(specialCharacters);
+  }
+  var password = ""
+  for (var i=0; i<length; i++) {
+    var randomChar = options[Math.floor(Math.random()*options.length)]
+    password += randomChar;
+  }
+  return password;
 }
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+
 
