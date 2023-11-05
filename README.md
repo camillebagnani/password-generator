@@ -6,13 +6,13 @@ This password generator was created to show the JavaScript skills I've learned s
 
 ## Installation
 
-To deploy the password, visit the project repository on GitHub > Settings > Pages > Source > Branch (main) > Save. From here you can view the finished project on GitHub Pages. You can view it via GitHub Pages here: 
+To deploy the password, visit the project repository on GitHub > Settings > Pages > Source > Branch (main) > Save. From here you can view the finished project on GitHub Pages. You can view it via GitHub Pages here: https://camillebagnani.github.io/password-generator/
 
 ## Usage
 
 This project is intended to be used as a password generator to give users a unique, random password of any length between 8-128 characters after following the prompts. You can copy and paste the password for your own use.
 
-![screenshot of the character length prompt](./assets/projects-section.png)
+![screenshot of the character length prompt](./assets/character-length-prompt.png)
 
 ## Credits
 
