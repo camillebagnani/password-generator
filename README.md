@@ -10,7 +10,7 @@ To deploy the password, visit the project repository on GitHub > Settings > Page
 
 ## Usage
 
-This project is intended to be used as a password generator to give users a unique, random password of any length between 8-128 characters after following the prompts. You can copy and paste the password for your own use.
+This project is intended to be used as a password generator to give users a unique, random password of any length between 8-128 characters after following the prompts. You can copy and paste the password for your own use. Once you type the length of you password and it is between 8-128 charcters, click "Okay" and the rest of the prompts will follow.
 
 ![screenshot of the character length prompt](./assets/character-length-prompt.png)
 
